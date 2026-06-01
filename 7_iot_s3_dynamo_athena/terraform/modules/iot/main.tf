@@ -22,7 +22,7 @@ resource "aws_iot_policy" "sensor_policy" {
         Effect   = "Allow"
         Resource = ["arn:aws:iot:${var.region}:${var.account_id}:client/${aws_iot_thing.edge_gateway.name}"]
       },
-      
+
       # Statement 2 (Publish / Receive): Permite al dispositivo enviar (Publish) datos a AWS IoT Core 
       # y recibir (Receive) mensajes que le lleguen a través de tópicos específicos.
       # Seguridad: Solo puede interactuar con la jerarquía de tópicos 'lab/sensors/*'
@@ -31,7 +31,7 @@ resource "aws_iot_policy" "sensor_policy" {
         Effect   = "Allow"
         Resource = ["arn:aws:iot:${var.region}:${var.account_id}:topic/lab/sensors/*"]
       },
-      
+
       # Statement 3 (Subscribe): Permite al dispositivo solicitar la suscripción a un tópico MQTT.
       # Seguridad: Utiliza el recurso 'topicfilter' (que permite comodines de MQTT como # y +).
       # Esto autoriza al Edge Gateway a suscribirse para escuchar cualquier sub-tópico de 'lab/sensors/'.

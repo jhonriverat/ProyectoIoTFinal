@@ -38,3 +38,19 @@ services:
     depends_on:
       - mosquitto
     restart: unless-stopped
+
+    ## sensor de movimiento
+  sensor_motion_01:
+    build:
+      context: ./python_device
+      dockerfile: Dockerfile
+    container_name: sensor-motion-01
+    environment:
+      - MQTT_HOST=mosquitto
+      - CLIENT_ID=sensor-motion-01
+      - SENSOR_TYPE=motion
+      - INTERVAL=7
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
+
