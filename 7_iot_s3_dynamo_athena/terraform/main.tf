@@ -16,11 +16,8 @@ provider "aws" {
 }
 
 # ==========================================
-
 # Networking
-
 # ==========================================
-
 module "networking" {
   source       = "./modules/networking"
   project_name = var.project_name
@@ -28,11 +25,8 @@ module "networking" {
 }
 
 # ==========================================
-
 # Storage (S3)
-
 # ==========================================
-
 module "storage" {
   source       = "./modules/storage"
   project_name = var.project_name
@@ -40,11 +34,8 @@ module "storage" {
 }
 
 # ==========================================
-
 # DynamoDB
-
 # ==========================================
-
 module "database" {
   source       = "./modules/database"
   project_name = var.project_name
@@ -52,30 +43,32 @@ module "database" {
 }
 
 # ==========================================
-
-# Compute (EC2 PostgreSQL)
-
+# Compute (EC2 PostgreSQL + ECR + ECS API)
 # ==========================================
-
 module "compute" {
   source = "./modules/compute"
 
   project_name = var.project_name
   environment  = var.environment
 
-  ami_id   = "ami-05ffe3c48a9991133"
-  key_name = "vockey"
-
+  # EC2 PostgreSQL
+  ami_id         = "ami-05ffe3c48a9991133"
+  key_name       = "vockey"
   subnet_id      = module.networking.subnet_ids[0]
   postgres_sg_id = module.networking.postgres_sg_id
+
+  # ECS FastAPI
+  lab_role_arn      = data.aws_iam_role.lab_role.arn
+  dynamo_table_name = module.database.sensor_table_name
+  subnet_ids        = module.networking.subnet_ids
+  ecs_sg_id         = module.networking.ecs_sg_id
+  target_group_arn  = module.networking.target_group_arn
+  alb_listener_arn  = module.networking.alb_listener_arn
 }
 
 # ==========================================
-
 # IoT Core
-
 # ==========================================
-
 module "iot" {
   source       = "./modules/iot"
   project_name = var.project_name
