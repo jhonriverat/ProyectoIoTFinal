@@ -12,6 +12,8 @@ ECR_REPO   = $(shell cd terraform && terraform output -raw ecr_repository_url 2>
 aws-up:
 	@echo "Desplegando infraestructura en AWS..."
 	mkdir -p edge_gateway/certs
+	@echo "Empaquetando Lambda..."
+	bash build_lambda.sh
 	cd terraform && terraform init && terraform apply -target=module.compute.aws_ecr_repository.api_repo -auto-approve
 	$(MAKE) api-push
 	cd terraform && terraform apply -auto-approve

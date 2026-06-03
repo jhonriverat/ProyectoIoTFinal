@@ -64,6 +64,10 @@ module "compute" {
   ecs_sg_id         = module.networking.ecs_sg_id
   target_group_arn  = module.networking.target_group_arn
   alb_listener_arn  = module.networking.alb_listener_arn
+
+  # Lambda S3 → PostgreSQL
+  sensor_bucket_name = module.storage.sensor_bucket_name
+  sensor_bucket_arn  = module.storage.sensor_bucket_arn
 }
 
 # ==========================================

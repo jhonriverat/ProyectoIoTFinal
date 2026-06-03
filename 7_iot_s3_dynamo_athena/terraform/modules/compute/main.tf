@@ -150,3 +150,59 @@ resource "aws_ecs_service" "api" {
     Environment = var.environment
   }
 }
+
+# ============================================================
+# Lambda — S3 → PostgreSQL (Hito 2/3)
+# ============================================================
+
+# Empaqueta el código de la Lambda + dependencias en un ZIP
+# El ZIP se crea localmente antes del terraform apply
+data "archive_file" "lambda_zip" {
+  type        = "zip"
+  source_dir  = "${path.root}/../../lambdas/s3_to_postgres/package"
+  output_path = "${path.root}/../../lambdas/s3_to_postgres/lambda.zip"
+}
+
+resource "aws_lambda_function" "s3_to_postgres" {
+  function_name    = "${var.project_name}-s3-to-postgres"
+  role             = var.lab_role_arn
+  handler          = "handler.handler"
+  runtime          = "python3.12"
+  filename         = data.archive_file.lambda_zip.output_path
+  source_code_hash = data.archive_file.lambda_zip.output_base64sha256
+  timeout          = 30
+
+  environment {
+    variables = {
+      PG_HOST     = aws_instance.postgres.public_ip
+      PG_PORT     = "5432"
+      PG_USER     = "postgres"
+      PG_PASSWORD = "postgres"
+      PG_DATABASE = "sensordb"
+    }
+  }
+
+  tags = { Name = "${var.project_name}-s3-to-postgres", Environment = var.environment }
+}
+
+# Permiso para que S3 invoque la Lambda
+resource "aws_lambda_permission" "allow_s3" {
+  statement_id  = "AllowS3Invoke"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.s3_to_postgres.function_name
+  principal     = "s3.amazonaws.com"
+  source_arn    = var.sensor_bucket_arn
+}
+
+# Trigger: cuando llega un archivo a S3 → dispara la Lambda
+resource "aws_s3_bucket_notification" "lambda_trigger" {
+  bucket = var.sensor_bucket_name
+
+  lambda_function {
+    lambda_function_arn = aws_lambda_function.s3_to_postgres.arn
+    events              = ["s3:ObjectCreated:*"]
+    filter_prefix       = "data/"
+  }
+
+  depends_on = [aws_lambda_permission.allow_s3]
+}

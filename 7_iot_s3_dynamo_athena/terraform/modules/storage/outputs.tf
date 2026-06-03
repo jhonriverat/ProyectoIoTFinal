@@ -7,3 +7,9 @@ output "athena_results_bucket_name" {
   value       = aws_s3_bucket.athena_results.bucket
   description = "Nombre del bucket de S3 para Athena"
 }
+
+output "sensor_bucket_arn" {
+  value       = aws_s3_bucket.sensor_data.arn
+  description = "ARN del bucket S3 de sensores"
+}
+EOF
