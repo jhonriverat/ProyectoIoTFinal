@@ -3,6 +3,7 @@ import os
 import boto3
 import pg8000.native
 from urllib.parse import unquote_plus
+from urllib.parse import unquote_plus
 
 # Variables de entorno inyectadas por Terraform
 PG_HOST     = os.environ["PG_HOST"]
@@ -82,7 +83,7 @@ def handler(event, context):
     """
     for record in event.get("Records", []):
         bucket = record["s3"]["bucket"]["name"]
-        key    = record["s3"]["object"]["key"]
+        key    = unquote_plus(record["s3"]["object"]["key"])
 
         print(f"Procesando: s3://{bucket}/{key}")
 
