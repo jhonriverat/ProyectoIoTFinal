@@ -159,8 +159,8 @@ resource "aws_ecs_service" "api" {
 # El ZIP se crea localmente antes del terraform apply
 data "archive_file" "lambda_zip" {
   type        = "zip"
-  source_dir  = "${path.root}/../../lambdas/s3_to_postgres/package"
-  output_path = "${path.root}/../../lambdas/s3_to_postgres/lambda.zip"
+  source_dir  = "${path.root}/../lambdas/s3_to_postgres/package"
+  output_path = "${path.root}/../lambdas/s3_to_postgres/lambda.zip"
 }
 
 resource "aws_lambda_function" "s3_to_postgres" {

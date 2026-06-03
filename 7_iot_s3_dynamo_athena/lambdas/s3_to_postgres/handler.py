@@ -2,6 +2,7 @@ import json
 import os
 import boto3
 import pg8000.native
+from urllib.parse import unquote_plus
 
 # Variables de entorno inyectadas por Terraform
 PG_HOST     = os.environ["PG_HOST"]
@@ -9,6 +10,57 @@ PG_PORT     = int(os.environ.get("PG_PORT", "5432"))
 PG_USER     = os.environ.get("PG_USER", "postgres")
 PG_PASSWORD = os.environ.get("PG_PASSWORD", "postgres")
 PG_DATABASE = os.environ.get("PG_DATABASE", "sensordb")
+
+s3 = boto3.client("s3")
+
+
+def get_conn():
+    return pg8000.native.Connection(
+        host=PG_HOST,
+        port=PG_PORT,
+        user=PG_USER,
+        password=PG_PASSWORD,
+        database=PG_DATABASE,
+    )
+
+
+def handler(event, context):
+    for record in event.get("Records", []):
+        bucket = record["s3"]["bucket"]["name"]
+        key    = unquote_plus(record["s3"]["object"]["key"])  # decodifica year%3D2026 → year=2026
+
+        print(f"Procesando: s3://{bucket}/{key}")
+
+        response = s3.get_object(Bucket=bucket, Key=key)
+        body     = response["Body"].read().decode("utf-8")
+        payload  = json.loads(body)
+
+        print(f"Payload recibido: {payload}")
+
+        device_id   = payload.get("device_id")
+        sensor_type = payload.get("sensor_type")
+        value       = str(payload.get("value"))
+        timestamp   = payload.get("timestamp")
+
+        if not all([device_id, sensor_type, value, timestamp]):
+            print(f"Payload incompleto, se omite: {payload}")
+            continue
+
+        conn = get_conn()
+        try:
+            conn.run(
+                "INSERT INTO eventos_sensores (device_id, sensor_type, value, timestamp) "
+                "VALUES (:device_id, :sensor_type, :value, :timestamp::timestamp)",
+                device_id=device_id,
+                sensor_type=sensor_type,
+                value=value,
+                timestamp=timestamp,
+            )
+            print(f"Insertado en PostgreSQL: {device_id} - {sensor_type} = {value}")
+        finally:
+            conn.close()
+
+    return {"statusCode": 200, "body": "OK"}
 
 s3 = boto3.client("s3")
 

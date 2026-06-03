@@ -74,4 +74,7 @@ clean: local-down aws-down
 	rm -rf edge_gateway/certs/*
 	rm -f edge_gateway/mosquitto.conf
 	rm -rf terraform/.terraform terraform/.terraform.lock.hcl terraform/terraform.tfstate terraform/terraform.tfstate.backup
+	@echo "Limpiando Lambda..."
+	rm -rf lambdas/s3_to_postgres/package
+	rm -f lambdas/s3_to_postgres/lambda.zip
 	@echo "Entorno limpio."
