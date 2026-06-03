@@ -206,3 +206,82 @@ resource "aws_s3_bucket_notification" "lambda_trigger" {
 
   depends_on = [aws_lambda_permission.allow_s3]
 }
+# ============================================================
+# SQS + Lambda Alerta + Lambda CloudWatch (Hito 6)
+# ============================================================
+
+# Cola SQS de alertas
+resource "aws_sqs_queue" "alerts" {
+  name                      = "${var.project_name}-alerts"
+  message_retention_seconds = 86400
+  visibility_timeout_seconds = 60
+
+  tags = { Name = "${var.project_name}-alerts", Environment = var.environment }
+}
+
+# CloudWatch Log Group para Lambda CloudWatch Logger
+resource "aws_cloudwatch_log_group" "cloudwatch_logger" {
+  name              = "/aws/lambda/${var.project_name}-cloudwatch-logger"
+  retention_in_days = 7
+}
+
+# Lambda Alerta — empaquetada inline (no necesita dependencias externas)
+data "archive_file" "alert_zip" {
+  type        = "zip"
+  output_path = "${path.root}/../lambdas/alert/lambda.zip"
+  source {
+    content  = file("${path.root}/../lambdas/alert/handler.py")
+    filename = "handler.py"
+  }
+}
+
+resource "aws_lambda_function" "alert" {
+  function_name    = "${var.project_name}-alert"
+  role             = var.lab_role_arn
+  handler          = "handler.handler"
+  runtime          = "python3.12"
+  filename         = data.archive_file.alert_zip.output_path
+  source_code_hash = data.archive_file.alert_zip.output_base64sha256
+  timeout          = 10
+
+  environment {
+    variables = {
+      ALERT_QUEUE_URL = aws_sqs_queue.alerts.url
+      TEMP_THRESHOLD  = "30"
+    }
+  }
+
+  tags = { Name = "${var.project_name}-alert", Environment = var.environment }
+}
+
+# Lambda CloudWatch Logger — empaquetada inline
+data "archive_file" "cloudwatch_logger_zip" {
+  type        = "zip"
+  output_path = "${path.root}/../lambdas/cloudwatch_logger/lambda.zip"
+  source {
+    content  = file("${path.root}/../lambdas/cloudwatch_logger/handler.py")
+    filename = "handler.py"
+  }
+}
+
+resource "aws_lambda_function" "cloudwatch_logger" {
+  function_name    = "${var.project_name}-cloudwatch-logger"
+  role             = var.lab_role_arn
+  handler          = "handler.handler"
+  runtime          = "python3.12"
+  filename         = data.archive_file.cloudwatch_logger_zip.output_path
+  source_code_hash = data.archive_file.cloudwatch_logger_zip.output_base64sha256
+  timeout          = 10
+
+  depends_on = [aws_cloudwatch_log_group.cloudwatch_logger]
+
+  tags = { Name = "${var.project_name}-cloudwatch-logger", Environment = var.environment }
+}
+
+# Trigger: SQS → Lambda CloudWatch Logger
+resource "aws_lambda_event_source_mapping" "sqs_to_cloudwatch" {
+  event_source_arn = aws_sqs_queue.alerts.arn
+  function_name    = aws_lambda_function.cloudwatch_logger.arn
+  batch_size       = 10
+  enabled          = true
+}

@@ -157,3 +157,26 @@ resource "aws_iot_topic_rule" "s3_rule" {
     role_arn    = var.lab_role_arn
   }
 }
+
+# Regla 3 — Alerta cuando temperatura > umbral
+# Invoca la Lambda Alerta directamente desde IoT Core
+resource "aws_iot_topic_rule" "alert_rule" {
+  name        = "SensorTempAlert_${var.environment}"
+  description = "Dispara alerta cuando temperatura supera el umbral"
+  enabled     = true
+  sql         = "SELECT * FROM 'lab/sensors/data' WHERE sensor_type = 'temperature' AND value > 30"
+  sql_version = "2016-03-23"
+
+  lambda {
+    function_arn = var.alert_lambda_arn
+  }
+}
+
+# Permiso para que IoT Core invoque la Lambda Alerta
+resource "aws_lambda_permission" "iot_invoke_alert" {
+  statement_id  = "AllowIoTInvoke"
+  action        = "lambda:InvokeFunction"
+  function_name = var.alert_lambda_arn
+  principal     = "iot.amazonaws.com"
+  source_arn    = aws_iot_topic_rule.alert_rule.arn
+}

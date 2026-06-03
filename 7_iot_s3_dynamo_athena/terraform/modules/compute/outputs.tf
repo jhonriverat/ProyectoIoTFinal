@@ -22,3 +22,8 @@ output "ecs_service_name" {
   value       = aws_ecs_service.api.name
   description = "Nombre del servicio ECS"
 }
+
+output "alert_lambda_arn" {
+  value       = aws_lambda_function.alert.arn
+  description = "ARN de la Lambda Alerta"
+}

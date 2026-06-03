@@ -77,4 +77,6 @@ clean: local-down aws-down
 	@echo "Limpiando Lambda..."
 	rm -rf lambdas/s3_to_postgres/package
 	rm -f lambdas/s3_to_postgres/lambda.zip
+	rm -f lambdas/alert/lambda.zip
+	rm -f lambdas/cloudwatch_logger/lambda.zip
 	@echo "Entorno limpio."

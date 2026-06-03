@@ -87,4 +87,5 @@ module "iot" {
 
   sensor_bucket_name = module.storage.sensor_bucket_name
   sensor_table_name  = module.database.sensor_table_name
+  alert_lambda_arn   = module.compute.alert_lambda_arn
 }
