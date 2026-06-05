@@ -58,13 +58,12 @@ def get_recent_events(device_id: str, limit: int = 10):
     return _clean(response.get("Items", []))
 
 
-def put_sensor(device_id: str, sensor_type: str, value: float, unit: str, timestamp: str):
+def put_sensor(device_id: str, sensor_type: str, value: float, timestamp: str):
     """Inserta un evento en DynamoDB (cada llamada crea un nuevo registro)."""
     item = {
         "device_id":   device_id,
         "sensor_type": sensor_type,
         "value":       Decimal(str(value)),
-        "unit":        unit,
         "timestamp":   timestamp,
     }
     table.put_item(Item=item)

@@ -1,0 +1,2961 @@
+{
+    "Items": [
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.81"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:15:52.983339+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.52"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:15:57.989523+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.3"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:02.995926+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "32.29"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:07.998670+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "32.25"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:13.004248+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "20.97"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:18.011599+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "20.39"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:23.012578+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.04"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:28.014888+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "32.31"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:33.018708+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "24.86"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:38.024856+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "20.66"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:43.026044+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.92"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:48.032050+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "30.82"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:53.034972+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "33.24"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:58.036119+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "21.71"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:03.039654+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "21.73"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:08.045318+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.84"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:13.051333+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.27"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:18.055527+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.83"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:23.060901+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "27.23"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:28.064086+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.57"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:33.065770+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.06"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:38.069479+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "21.03"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:43.076126+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.88"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:48.078230+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.52"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:53.083886+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "33.89"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:58.085920+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "33.72"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:03.092221+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.46"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:08.097132+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.25"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:13.103243+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "20.93"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:18.106170+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.84"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:23.111554+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "30.68"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:28.113602+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "30.67"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:33.116614+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.03"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:38.119139+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.7"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:43.121951+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "32.23"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:48.128828+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.8"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:53.130591+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.42"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:58.132243+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "33.76"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:03.139865+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "32"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:08.141917+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "31.49"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:13.147852+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "26.74"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:18.152594+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "27.4"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:23.155347+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "27.35"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:28.158114+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "31.84"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:33.163833+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.81"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:38.169301+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "26.35"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:43.171848+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.91"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:48.174176+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.35"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:53.180425+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "30.57"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:58.181435+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.69"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:03.184350+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "26.48"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:08.191333+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.69"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:13.194591+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "23.88"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:18.197349+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "33.03"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:23.204422+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "21.09"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:28.214814+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.62"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:33.219249+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.22"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:38.219186+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.46"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:43.221276+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.63"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:48.227211+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "32.27"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:53.233551+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.48"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:58.239301+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.18"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:03.244773+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "23.81"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:08.248624+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "24.03"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:13.255167+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.28"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:18.262060+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "20.19"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:23.269054+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.99"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:28.272663+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "28.73"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:33.274153+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "31.34"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:38.275792+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.79"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:43.281642+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.2"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:48.287641+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.23"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:53.289969+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "24.35"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:58.294321+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34.27"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:03.296389+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "34"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:08.297525+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.2"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:13.303527+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "26.1"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:18.305855+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "27.9"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:23.308028+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "21.78"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:28.312709+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "21.55"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:33.330146+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "27.97"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:38.336276+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "30.46"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:43.337717+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "25.77"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:48.341569+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "22.65"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:53.346293+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "29.28"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:58.352227+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-temp-01"
+            },
+            "value": {
+                "N": "33.23"
+            },
+            "sensor_type": {
+                "S": "temperature"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:23:03.357358+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2656.95"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:15:52.981501+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2318.65"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:15:59.987617+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2611.8"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:06.989791+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2561.81"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:13.996667+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2307.96"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:20.998702+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3463.61"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:28.004621+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2920.93"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:35.008927+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2395.29"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:42.010084+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3179.55"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:49.015954+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3318.35"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:56.021406+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3442.89"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:03.026360+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2413.76"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:10.028321+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2077.64"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:17.032402+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2042.45"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:24.038332+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3467.23"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:31.044570+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2069.37"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:38.045944+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3308.29"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:45.051951+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2761.87"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:52.053260+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2867.83"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:59.058434+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2402.51"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:06.067177+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2750.9"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:13.073786+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2939.39"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:20.078015+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2912.74"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:27.081442+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2515.95"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:34.085392+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2629.27"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:41.090783+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3301.4"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:48.097042+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2182.77"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:55.099820+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2752.35"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:02.105878+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2735.93"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:09.113848+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3149.7"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:16.117170+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2645.11"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:23.122541+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3204.69"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:30.124093+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3060.24"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:37.126581+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2357.53"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:44.132443+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2093.88"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:51.134404+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2689.39"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:58.137163+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2840.11"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:05.140141+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3382.91"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:12.143780+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3268.76"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:19.149422+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3369.68"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:26.155240+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2493.54"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:33.159642+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2947.87"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:40.159483+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2104.49"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:47.166049+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3336.57"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:54.171857+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2354.67"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:01.175973+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2217.95"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:08.179435+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3375.93"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:15.183761+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2703.76"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:22.188116+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2920.43"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:29.191747+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2617.91"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:36.196150+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3481.71"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:43.202699+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3105.6"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:50.208677+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2793.36"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:57.217102+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2848.98"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:04.225614+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3163.64"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:11.225603+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2464.71"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:18.229626+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3288.19"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:25.234764+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3497.79"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:32.236434+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2326.96"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:39.243271+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "3350.67"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:46.246306+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2293.96"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:53.252480+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-motion-01"
+            },
+            "value": {
+                "N": "2811.89"
+            },
+            "sensor_type": {
+                "S": "motion"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:23:00.256635+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "56.5"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:15:52.987120+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "47.89"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:15:59.987719+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "47.31"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:06.989784+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "53.35"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:13.996667+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "47.28"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:20.998788+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "48.9"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:28.004622+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "51.43"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:35.008386+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "40.16"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:42.009397+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "59.18"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:49.015942+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "54.98"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:16:56.021401+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "40.14"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:03.025863+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "57.84"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:10.028487+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "53.38"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:17.032402+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "52.77"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:24.039004+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "44.93"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:31.043591+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "51.63"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:38.045994+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "42"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:45.051000+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "52.77"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:52.052496+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "48.03"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:17:59.058431+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "53.68"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:06.067177+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "55.11"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:13.073786+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "41.29"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:20.078105+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "49.97"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:27.081443+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "42.69"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:34.084266+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "44.85"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:41.090789+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "43.11"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:48.094524+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "42.68"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:18:55.100189+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "40.32"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:02.105861+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "47.49"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:09.113848+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "41.97"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:16.117540+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "54.41"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:23.123862+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "52.93"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:30.124839+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "59.01"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:37.127130+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "52.04"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:44.131238+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "53.93"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:51.132508+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "40.19"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:19:58.137876+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "46.35"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:05.140145+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "41.95"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:12.146215+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "58.89"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:19.149422+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "48.79"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:26.155115+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "57.12"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:33.159374+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "56.69"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:40.160440+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "48.66"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:47.166054+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "54.97"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:20:54.171858+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "46.59"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:01.175973+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "51.95"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:08.179488+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "48.05"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:15.181788+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "55.81"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:22.188130+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "40.09"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:29.191748+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "44.75"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:36.195543+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "44.98"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:43.201715+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "50.8"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:50.206535+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "43.9"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:21:57.213250+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "48.18"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:04.225614+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "55.6"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:11.225613+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "50.07"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:18.228032+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "59.16"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:25.234482+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "53.49"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:32.236791+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "51.19"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:39.242887+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "47.97"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:46.245279+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "42.44"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:22:53.251502+00:00"
+            }
+        },
+        {
+            "device_id": {
+                "S": "sensor-humidity-01"
+            },
+            "value": {
+                "N": "45.52"
+            },
+            "sensor_type": {
+                "S": "humidity"
+            },
+            "timestamp": {
+                "S": "2026-06-05T15:23:00.257697+00:00"
+            }
+        }
+    ],
+    "Count": 211,
+    "ScannedCount": 211,
+    "ConsumedCapacity": null
+}

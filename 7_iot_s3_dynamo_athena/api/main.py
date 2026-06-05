@@ -3,6 +3,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from services.dynamo_service import get_sensor, get_all_sensors, put_sensor, get_recent_events
 from services.postgres_service import get_history, health_check as pg_health
+from datetime import datetime, timezone
 
 app = FastAPI(
     title="Proyecto IoT API",
@@ -15,8 +16,6 @@ class SensorIn(BaseModel):
     device_id:   str
     sensor_type: str
     value:       float
-    unit:        str
-    timestamp:   str | None = None
 
 
 @app.get("/")
@@ -42,12 +41,13 @@ def get_sensors():
 # POST /sensors — registra un nuevo evento en DynamoDB
 @app.post("/sensors")
 def create_sensor(sensor: SensorIn):
-    ts = sensor.timestamp or str(int(time.time()))
+    
+    ts = datetime.now(timezone.utc).isoformat()
+
     item = put_sensor(
         device_id=sensor.device_id,
         sensor_type=sensor.sensor_type,
         value=sensor.value,
-        unit=sensor.unit,
         timestamp=ts,
     )
     return {"message": "Sensor registrado", "sensor": item}
