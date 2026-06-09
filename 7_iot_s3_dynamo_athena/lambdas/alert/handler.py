@@ -30,7 +30,7 @@ def handler(event, context):
         "value":       value,
         "threshold":   THRESHOLD,
         "timestamp":   timestamp,
-        "message":     f"ALERTA: {device_id} reportó {sensor_type}={value} (umbral={THRESHOLD})"
+        "message":     f"⚠️⚠️⚠️⚠️⚠️⚠️ ALERTA: {device_id} reportó {sensor_type}={value} (umbral={THRESHOLD})"
     }
 
     sqs.send_message(
