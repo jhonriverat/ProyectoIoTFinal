@@ -38,5 +38,5 @@ def handler(event, context):
         MessageBody=json.dumps(alert_message)
     )
 
-    logger.info(f"Alerta enviada a SQS: {alert_message['message']}")
+    logger.info(f"⚠️⚠️⚠️⚠️⚠️ Alerta enviada a SQS: {alert_message['message']}")
     return {"statusCode": 200, "body": "Alerta enviada"}
