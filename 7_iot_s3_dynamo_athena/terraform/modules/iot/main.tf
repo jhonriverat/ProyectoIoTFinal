@@ -164,7 +164,7 @@ resource "aws_iot_topic_rule" "alert_rule" {
   name        = "SensorTempAlert_${var.environment}"
   description = "Dispara alerta cuando temperatura supera el umbral"
   enabled     = true
-  sql         = "SELECT * FROM 'lab/sensors/data' WHERE sensor_type = 'temperature' AND value > 30"
+  sql         = "SELECT * FROM 'lab/sensors/data' WHERE value > 30"
   sql_version = "2016-03-23"
 
   lambda {
